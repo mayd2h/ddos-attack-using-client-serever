@@ -1,0 +1,31 @@
+Denial of service attack, a client sent requests in a tremendous amount to flood the server when the server unable
+to handle them it goes offline. When you perform DOS using multiple Computers it becomes
+Distributed Denial of Service known as DDoS. Distributed Denial of Service is the most 
+common, easy, and the dangerous hacking attack which can disturb and take down a server.
+
+Method #1: How to DDos a Website Manually Using Windows Command Prompt
+how to ddos a website
+
+ 
+1 Select a small website that you want to DDos attack.
+2 Find the IP address of the website. To find the IP address of a specific website just use the following command:
+
+   ping www.example.com -t
+  The IP address looks similar to xxx.xxx.xxx.xxx
+
+3 Now type the following command:
+   ping [ip address] -t -l 65500
+Run the command for hours. If possible use multiple computers to run the same command at a same time.
+Now, when you visit the website after 2 or 3 hours, you will find the “website is temporary down” or “server unavailable” message.
+Note: You should have a internet connection with unlimited bandwidth. Otherwise you lose all your internet bandwidth for performing the task.
+
+Method #2 :How to perform DDOS on a website using LOIC (Low Orbit Ion Canon).
+LOIC is an open source network stress testing and denial-of-service attack application, written in C#.
+Download LOIC here: https://sourceforge.net/projects/loic/
+
+1 Enter the URL of the Website under Select your target and choose Lock on
+2 Enter the IP under the URL field and choose again choose Lock on. Use CMD to get the IP address of the website. e.g ping URL -t
+   From the Method drop-down list, select UDP option.
+3 Uncheck the Wait for reply check box.
+4 Click on the IIMA CHARGIN MAH LAZER button to start the DDOS.
+ Let it run for 3 to 4 hours, if the website server is small it will go down and no one can access the website.
